@@ -1,0 +1,102 @@
+# ============================================
+#  Strict Meta / Facebook / Instagram Blocklist
+#  Includes Facebook, Messenger, Instagram,
+#  WhatsApp, Meta, Oculus, Workplace & Ads
+#  Designed for Pi-hole / AdGuardHome
+#  © 2025 Strict Privacy Edition
+# ============================================
+
+# Facebook Core
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 mobile.facebook.com
+0.0.0.0 basic.facebook.com
+0.0.0.0 free.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 b-graph.facebook.com
+0.0.0.0 api.facebook.com
+0.0.0.0 business.facebook.com
+0.0.0.0 upload.facebook.com
+0.0.0.0 mbasic.facebook.com
+0.0.0.0 l.facebook.com
+0.0.0.0 lm.facebook.com
+0.0.0.0 edge-chat.facebook.com
+0.0.0.0 portal.fb.com
+
+# Facebook Static/CDN
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 staticx.facebook.com
+0.0.0.0 fbcdn.net
+0.0.0.0 fbcdn.com
+0.0.0.0 scontent.xx.fbcdn.net
+0.0.0.0 scontent.fbsbx.com
+0.0.0.0 fbcdn-video-a.akamaihd.net
+0.0.0.0 akamaihd.net
+0.0.0.0 akamaiedge.net
+0.0.0.0 fbsbx.com
+
+# Tracking / Advertising
+0.0.0.0 connect.facebook.net
+0.0.0.0 pixel.facebook.com
+0.0.0.0 analytics.facebook.com
+0.0.0.0 ads.facebook.com
+0.0.0.0 adtools.facebook.com
+0.0.0.0 events.facebook.com
+0.0.0.0 audience-network.net
+0.0.0.0 meta-ads.com
+0.0.0.0 meta-graph.com
+0.0.0.0 facebook-pixel.com
+
+# Messenger
+0.0.0.0 messenger.com
+0.0.0.0 www.messenger.com
+0.0.0.0 edge-mqtt.facebook.com
+0.0.0.0 mqtt-mini.facebook.com
+0.0.0.0 0-edge-chat.facebook.com
+
+# Instagram
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 i.instagram.com
+0.0.0.0 api.instagram.com
+0.0.0.0 graph.instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 scontent.cdninstagram.com
+
+# WhatsApp
+0.0.0.0 whatsapp.com
+0.0.0.0 www.whatsapp.com
+0.0.0.0 whatsapp.net
+0.0.0.0 mmg.whatsapp.net
+0.0.0.0 static.whatsapp.net
+0.0.0.0 api.whatsapp.com
+0.0.0.0 web.whatsapp.com
+
+# Meta / Corporate / Oculus / VR
+0.0.0.0 meta.com
+0.0.0.0 www.meta.com
+0.0.0.0 meta.ai
+0.0.0.0 oculus.com
+0.0.0.0 www.oculus.com
+0.0.0.0 static.oculus.com
+0.0.0.0 graph.oculus.com
+0.0.0.0 workplace.com
+0.0.0.0 graph.workplace.com
+
+# Internal Meta Domains (tracking/support)
+0.0.0.0 tfbnw.net
+0.0.0.0 xx.fbcdn.net
+0.0.0.0 fb.me
+0.0.0.0 fb.com
+0.0.0.0 fb.gg
+
+# Email tracking
+0.0.0.0 facebookmail.com
+0.0.0.0 m.facebookmail.com
+
+# Extra Meta Infrastructure (harmless to block)
+0.0.0.0 accountkit.com
+0.0.0.0 atdmt.com
+0.0.0.0 support.facebook.com
+0.0.0.0 upload.facebook.com
